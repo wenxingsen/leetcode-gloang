@@ -13,13 +13,16 @@
 ```
 
 来源：力扣（LeetCode）
+
 链接：https://leetcode-cn.com/problems/add-two-numbers
+
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
+### 解答思路
 
+这个题目有点类似于链表入门题”两个有序链表的合并“，大小的判断改成值的求和进制位
 
-
-### 题目解答
+### 解答代码
 ```golang
 /**
  * Definition for singly-linked list.
