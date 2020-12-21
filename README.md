@@ -2,6 +2,11 @@
 # leetcode-gloang
 leetcode解答golang语言版本
 
+来源：力扣（LeetCode）
+
+链接：https://leetcode-cn.com/problems
+
+
 ## 1. 两数之和
 
 待补充
@@ -22,10 +27,6 @@ leetcode解答golang语言版本
 输出：7 -> 0 -> 8
 原因：342 + 465 = 807
 ```
-
-来源：力扣（LeetCode）
-
-链接：https://leetcode-cn.com/problems/add-two-numbers
 
 **解答思路**
 
