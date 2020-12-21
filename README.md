@@ -1,4 +1,7 @@
-[TOC]
+- [leetcode-gloang](#leetcode-gloang)
+  * [1. 两数之和](#1-----)
+  * [2. 两数相加](#2-----)
+
 
 # leetcode-gloang
 leetcode解答golang语言版本
@@ -29,6 +32,7 @@ leetcode解答golang语言版本
 链接：https://leetcode-cn.com/problems/add-two-numbers
 
 **解答思路**
+
 这个题目有点类似于链表入门题”两个有序链表的合并“，大小的判断改成值的求和进制位
 
 **解答代码**
