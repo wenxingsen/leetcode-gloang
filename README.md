@@ -1,5 +1,5 @@
 
-# leetcode-gloang
+## leetcode-gloang
 leetcode解答golang语言版本
 
 题目来源请参考力扣（LeetCode）
@@ -75,7 +75,25 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 }
 ```
 
-### 
+## 3.无重复字符串的最长子串
+
+**解答思路**
+
+最能想到的是暴力破解方法，但是更为优雅的左右滑动的窗口的办法
+
+**解答代码**
+
+```golang
+// 暴力破解法
+
+```
+
+```golang
+// 窗口滑动
+
+```
+
+
 
 
 
