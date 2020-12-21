@@ -85,7 +85,40 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 
 ```golang
 // 暴力破解法
+func havechongfu(s string) bool {
+    l := len(s)
+    for i:=0;i<l;i++ {
+        for j:=i;j<l;j++ {
+            if strings.Contains(s[j+1:l], string(s[i])) {
+                return false
+            }
+        }
+    }
+    return true
+}
 
+func lengthOfLongestSubstring(s string) int {
+ 
+    l := len(s)
+    if l ==0 {
+        return 0
+    }
+    
+    for i:=0;i<l;i++ {
+        findlen := l - i
+        if findlen > 256 {
+            continue
+        }
+        for j:=0;j<=l-findlen;j++ {
+            strcut := s[j:j+findlen]
+            if havechongfu(strcut) {
+                return findlen
+            }
+        }
+    }
+
+    return 1
+}
 ```
 
 ```golang
