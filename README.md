@@ -1,7 +1,3 @@
-- [leetcode-gloang](#leetcode-gloang)
-  * [1. 两数之和](#1-----)
-  * [2. 两数相加](#2-----)
-
 
 # leetcode-gloang
 leetcode解答golang语言版本
